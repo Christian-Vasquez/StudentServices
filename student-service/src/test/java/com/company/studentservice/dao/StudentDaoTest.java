@@ -43,4 +43,6 @@ public class StudentDaoTest {
         studentDao.deleteById(student.getId());
         assertEquals(0,studentDao.findAll().size());
     }
+
+
 }
